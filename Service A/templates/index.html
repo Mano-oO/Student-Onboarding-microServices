@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Service A</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>CSV Generator </h1>
+
+    <button onclick="generateData()">Generate CSV</button>
+
+    <p id="status"></p>
+
+    <script>
+        function generateData() {
+            document.getElementById("status").innerText = "Generating...";
+
+            fetch("/generate", {
+                method: "POST"
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("status").innerText = data.status;
+            })
+            .catch(error => {
+                document.getElementById("status").innerText = "Error!";
+            });
+        }
+    </script>
+
+</body>
+</html>
