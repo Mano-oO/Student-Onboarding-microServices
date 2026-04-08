@@ -1,0 +1,5 @@
+flask
+faker
+requests
+watchdog
+pandas

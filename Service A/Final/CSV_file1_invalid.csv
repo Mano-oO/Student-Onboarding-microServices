@@ -1,34 +1,24 @@
 first_name,last_name,date_of_birth,gender,phone_number,email,course_name,blood_group,cgpa,errors
-Thomas,Chang,1995-07-12,Male,6897704511,thomas.chang12@gmail.com,QA,,9.39,Invalid blood group
-Wesley,Medina,1982-10-02,Male,9981014705,wesley.medina02@gmail.com,QA,,9.84,Invalid blood group
- ,Becker,1994-09-23,Male,2299388909,stacy.becker23@gmail.com,IT,B+,8.64,Invalid first_name
-Michelle,Jackson,1993-07-01,Female,452153,michelle.jackson01@gmail.com,QA,B-,9.77,Invalid phone
-Louis,Castro,1981-05-29,Male,6854766260,louis.castro29@gmail.com,AI,AB+,4.08,Invalid CGPA
-Walter,Castillo,2003-08-04,Female,54679931,walter.castillo04@gmail.com,IT,O+,6.96,Invalid phone
-Joshua,Tran,1999-11-06,Female,4369320546,Joshuagmail.com,AI,O+,7.51,Invalid email
-Carrie,Clark,1993-12-13,Male,5043005938,carrie.clark13@gmail.com,QA,O+,1.05,Invalid CGPA
-Sonia,King,2003-11-28,Female,5268291527,King@gmail.,Cloud,AB-,10.0,Invalid email
-Edward,Russo,1981-07-14,Female,8070148030,Edwardmail,IT,AB+,7.3,Invalid email
-Amanda,Williams,2029-02-08,Female,7438236407,amanda.williams21@gmail.com,Cloud,O-,6.39,Invalid DOB
-Crystal,Young,1971-05-19,Male,2314378060,Crystalyahoo,HR,O-,7.02,Invalid email
-,Spencer,1999-02-19,Male,1598011393,ashley.spencer19@gmail.com,IT,A+,6.72,Invalid first_name
-Tracy,Jones,1967-10-09,Female,1887941,tracy.jones09@gmail.com,IT,B-,7.83,Invalid phone
-,Good,2002-03-30,Male,6601599721,scott.good30@gmail.com,Marketing,B+,8.38,Invalid first_name
-Kathy,Parrish,1998-10-08,Female,0241008766,kathy.parrish08@gmail.com,QA,B+,10.29,Invalid CGPA
-Kyle,Bean,2001-05-15,Female,30778932,kyle.bean15@gmail.com,IT,A-,9.52,Invalid phone
- ,Hayes,1996-02-28,Female,5875690498,justin.hayes28@gmail.com,AI,AB-,9.57,Invalid first_name
-Tammy,Ritter,2007-06-12,Female,1847419429,tammy.ritter12@gmail.com,HR,AB+,2.34,Invalid CGPA
-Amber,Mclean,1989-03-31,Female,3203383071,amber.mclean31@gmail.com,HR,,7.32,Invalid blood group
-Stephanie,Perry,1984-01-18,Male,4188645682,stephanie.perry18@gmail.com,HR,B-,4.2,Invalid CGPA
-Samuel,White,2001-03-08,Female,9297776011,White@gmail,QA,AB+,8.37,Invalid email
-Derrick,Gonzalez,1971-02-27,Male,2134414287,Derrickmail,Cloud,A-,9.57,Invalid email
-Kimberly,Howard,2028-09-10,Female,7651596711,kimberly.howard14@gmail.com,Marketing,O-,6.7,Invalid DOB
-Jason,Kelly,1993-12-01,Female,0819766169,Kelly@gmailcomcom,Marketing,A+,7.89,Invalid email
-Tammy,Gibbs,1992-04-29,Male,4772487762,Gibbs@gmailcomcom,HR,A+,8.23,Invalid email
-Kara,Kennedy,1989-11-08,Female,1938285,kara.kennedy08@gmail.com,QA,A+,9.1,Invalid phone
-Diane,Jones,1979-05-13,Male,9255164338,diane.jones13@gmail.com,AI,,7.25,Invalid blood group
-Nicole,West,1992-01-17,Female,2454199911,nicole.west17@gmail.com,AI,B+,14.09,Invalid CGPA
-Nicholas,Young,1991-01-17,Female,9455020202,nicholas.young17@gmail.com,IT,O+,0.53,Invalid CGPA
-Sheri,Murphy,2028-07-28,Male,9784284850,sheri.murphy14@gmail.com,HR,B+,9.93,Invalid DOB
-Antonio,Rhodes,1970-02-27,Female,1154345360,antonio.rhodes27@gmail.com,QA,B-,14.5,Invalid CGPA
-,Knight,1997-01-18,Male,3502902369,jennifer.knight18@gmail.com,HR,O-,7.79,Invalid first_name
+,Shaffer,1972-05-09,Male,31937951,janet.shaffer09@gmail.com,Marketing,B+,7.16,"Invalid first_name, Invalid phone"
+Michael,Hill,2031-03-02,Male,430550564,michael.hill04@gmail.com,IT,B-,5.77,"Invalid phone, Invalid DOB"
+,Atkinson,2005-03-04,Female,8662436375,samantha.atkinson04@gmail.com,Cloud,B+,8.31,Invalid first_name
+Robert,Roberts,1989-06-28,Male,3576789437,robert.roberts28@gmail.com,QA,,5.87,Invalid blood group
+Miguel,Williams,1988-09-30,Male,184991665,miguel.williams30@gmail.com,Marketing,A+,7.94,Invalid phone
+Daniel,Dixon,1992-08-17,Female,6863742184,Dixon@gmail,QA,AB+,5.44,Invalid email
+Elizabeth,Sullivan,1984-10-25,Male,5651046495,Sullivan@gmail,Marketing,B-,9.77,Invalid email
+Daisy,Carter,1979-12-10,Male,8608714434,daisy.carter10@gmail.com,Marketing,,5.07,Invalid blood group
+Robert,Mitchell,1968-04-06,Female,924708329,robert.mitchell06@gmail.com,AI,AB-,7.62,Invalid phone
+Jade,Hensley,1968-10-18,Male,2375351489,jade.hensley18@gmail.com,IT,O+,4.14,Invalid CGPA
+Lisa,Spears,2004-02-18,Female,9283458165,lisa.spears18@gmail.com,Marketing,,6.73,Invalid blood group
+ ,White,2004-07-22,Female,8725833149,clarence.white22@gmail.com,IT,O-,9.76,Invalid first_name
+,Robinson,1997-04-07,Male,4285773939,christopher.robinson07@gmail.com,Marketing,AB-,9.09,Invalid first_name
+Pamela,Sharp,2028-04-28,Male,4691573990,pamela.sharp09@gmail.com,Marketing,AB-,9.27,Invalid DOB
+Xavier,Mclaughlin,1991-12-03,Male,334951457,Xaviergmail.com,Marketing,O-,8.11,"Invalid email, Invalid phone"
+Mark,Butler,1975-01-12,Female,3863346230,mark.butler12@gmail.com,HR,A+,4.89,Invalid CGPA
+ ,Salinas,1976-01-11,Male,7844758510,shelly.salinas11@gmail.com,HR,O+,5.18,Invalid first_name
+Caleb,Kim,1972-04-10,Male,4653264522,Kim@gmailcomcom,QA,AB+,5.28,Invalid email
+Michelle,Sweeney,2002-11-09,Female,544581739,michelle.sweeney09@gmail.com,Cloud,B+,7.47,Invalid phone
+Tiffany,Scott,1990-12-31,Female,9258830102,Scott@gmail,Marketing,O+,9.08,Invalid email
+,Perez,1981-10-07,Female,5659533049,marcus.perez07@gmail.com,IT,B-,6.61,Invalid first_name
+ ,Zavala,1978-11-09,Female,7248149518,steven.zavala09@gmail.com,QA,O+,7.6,Invalid first_name
+Michelle,King,1997-03-28,Female,6978256200,King@gmail.,Marketing,A+,6.57,Invalid email

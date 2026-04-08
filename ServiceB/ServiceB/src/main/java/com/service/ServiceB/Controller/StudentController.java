@@ -7,7 +7,7 @@ import java.util.List;
 
 import com.service.ServiceB.DTO.StudentDTO;
 import com.service.ServiceB.ServiceL.StudentService;
-
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/students")
 public class StudentController {
@@ -20,4 +20,6 @@ public class StudentController {
         service.saveAll(data);
         return "Batch Data Saved Successfully!";
     }
+
+
 }

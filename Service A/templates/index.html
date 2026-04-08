@@ -1,53 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Service A</title>
-    <style>
-        body {
-            font-family: Arial;
-            text-align: center;
-            margin-top: 100px;
-        }
-
-        button {
-            padding: 15px 30px;
-            font-size: 18px;
-            background-color: green;
-            color: white;
-            border: none;
-            border-radius: 10px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: darkgreen;
-        }
-    </style>
+<title>CSV Generator</title>
+<style>
+body{font-family:sans-serif;background:linear-gradient(135deg,#1e3c72,#2a5298);display:flex;justify-content:center;align-items:center;height:100vh;margin:0;color:#fff}
+.box{background:#ffffff1a;padding:30px;border-radius:15px;text-align:center}
+input,button{padding:10px;margin:10px;border:none;border-radius:8px}
+button{background:#00c853;color:#fff;cursor:pointer}
+</style>
 </head>
+
 <body>
+<div class="box">
+<h2>CSV Generator 🚀</h2>
 
-    <h1>CSV Generator </h1>
+<input type="number" id="rows" placeholder="Rows">
+<br>
+<button onclick="gen()">Generate</button>
 
-    <button onclick="generateData()">Generate CSV</button>
+<p id="msg"></p>
+</div>
 
-    <p id="status"></p>
+<script>
+function gen(){
+ let r=document.getElementById("rows").value;
+ if(!r||r<=0) return msg("Enter valid number");
 
-    <script>
-        function generateData() {
-            document.getElementById("status").innerText = "Generating...";
+ msg("Generating...");
+ fetch("/generate",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({rows:r})})
+ .then(res=>res.json())
+ .then(d=>msg(d.status))
+ .catch(()=>msg("Error!"));
+}
 
-            fetch("/generate", {
-                method: "POST"
-            })
-            .then(response => response.json())
-            .then(data => {
-                document.getElementById("status").innerText = data.status;
-            })
-            .catch(error => {
-                document.getElementById("status").innerText = "Error!";
-            });
-        }
-    </script>
+function msg(t){document.getElementById("msg").innerText=t;}
+</script>
 
 </body>
 </html>

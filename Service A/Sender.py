@@ -3,7 +3,7 @@ import csv
 import sys
 import os
 
-API_URL = "http://localhost:8080/students" 
+API_URL = "http://service-b:8080/students"
 BATCH_SIZE = 100
 
 def send_data(file_path):

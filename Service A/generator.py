@@ -3,6 +3,7 @@ import csv
 import random
 from datetime import datetime, timedelta
 import os
+import sys
 
 fake = Faker()
 Dept = ["AI", "Cloud", "IT", "Marketing", "QA", "HR"]
@@ -11,7 +12,9 @@ blood_groups = ["A+", "A-", "B+", "B-", "O+", "O-", "AB+", "AB-"]
 
 data = []
 
-for i in range(100):
+rows = int(sys.argv[1]) if len(sys.argv) > 1 else 100
+
+for i in range(rows):
     first_name = fake.first_name()
     last_name = fake.last_name()
     dob = fake.date_of_birth(minimum_age=18, maximum_age=60)
