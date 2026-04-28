@@ -1,0 +1,14 @@
+first_name,last_name,date_of_birth,gender,phone_number,email,course_name,blood_group,cgpa,errors
+Ricardo,Bright,1995-03-22,Male,237235286,ricardo.bright22@gmail.com,HR,,9.65,"Invalid phone, Invalid blood group"
+Emily,Fields,2001-04-15,Male,8917578522,emily.fields15@gmail.com,Cloud,A-,14.2,Invalid CGPA
+Louis,Murphy,1989-10-29,Male,976532696,louis.murphy29@gmail.com,HR,O+,7.9,Invalid phone
+Stephen,Nelson,1985-09-27,Male,79885,stephen.nelson27@gmail.com,AI,B-,5.49,Invalid phone
+Melinda,Lewis,2029-01-26,Male,4452646804,melinda.lewis05@gmail.com,AI,B-,6.07,Invalid DOB
+Michelle,Higgins,1974-01-31,Female,7482226535,Michellemail,IT,B-,7.59,Invalid email
+Joseph,Farrell,2006-07-28,Female,5460766429,joseph.farrell28@gmail.com,Marketing,O+,1.66,Invalid CGPA
+Kelly,Hernandez,1978-02-11,Female,7628969158,Kellymail,AI,A-,9.55,Invalid email
+ ,Smith,1972-06-18,Male,8961501795,wendy.smith18@gmail.com,Cloud,AB+,5.73,Invalid first_name
+Morgan,Calhoun,2030-06-06,Female,9687968732,morgan.calhoun02@gmail.com,AI,B-,6.73,Invalid DOB
+Michael,Reyes,1967-02-21,Female,9555939362,michael.reyes21@gmail.com,IT,,8.57,Invalid blood group
+Christopher,Wood,1969-12-29,Male,862890858,christopher.wood29@gmail.com,IT,AB+,8.43,Invalid phone
+ ,Bell,2003-02-06,Female,2498939574,brenda.bell06@gmail.com,IT,AB-,5.21,Invalid first_name

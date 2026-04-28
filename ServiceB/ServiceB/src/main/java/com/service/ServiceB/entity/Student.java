@@ -6,6 +6,9 @@ import java.time.LocalDate;
 
 @Entity
 @Table(name = "students")
+/* @Table(name = "students", uniqueConstraints = {
+                @UniqueConstraint(columnNames = "email"),
+                @UniqueConstraint(columnNames = "phoneNumber") }) */
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

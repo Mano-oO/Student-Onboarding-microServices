@@ -47,4 +47,35 @@ public class StudentService {
         repository.saveAll(students);
     }
 
+    public List<Student> getAllStudents() {
+        return repository.findAll();
+    }
+
+    public void saveOne(StudentDTO dto) {
+
+        Student s = new Student();
+
+        s.setFirstName(dto.getFirst_name());
+        s.setLastName(dto.getLast_name());
+
+        if (dto.getDate_of_birth() != null && !dto.getDate_of_birth().isEmpty()) {
+            s.setDateOfBirth(LocalDate.parse(dto.getDate_of_birth()));
+        }
+
+        s.setGender(dto.getGender());
+        s.setPhoneNumber(dto.getPhone_number());
+        s.setEmail(dto.getEmail());
+        s.setCourseName(dto.getCourse_name());
+        s.setBloodGroup(dto.getBlood_group());
+
+        if (dto.getCgpa() != null && !dto.getCgpa().isEmpty()) {
+            try {
+                s.setCgpa(Double.parseDouble(dto.getCgpa()));
+            } catch (Exception e) {
+                s.setCgpa(null);
+            }
+        }
+
+        repository.save(s);
+    }
 }

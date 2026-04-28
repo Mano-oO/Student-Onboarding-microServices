@@ -1,0 +1,26 @@
+first_name,last_name,date_of_birth,gender,phone_number,email,course_name,blood_group,cgpa,errors
+Kevin,Salazar,1986-03-01,Female,8534207279,Salazar@gmail,AI,AB-,7.23,Invalid email
+Julia,Reyes,1990-12-28,Female,5784669112,julia.reyes28@gmail.com,Marketing,O+,3.52,Invalid CGPA
+John,Ho,1996-04-16,Female,4520022801,Johnmail,Marketing,O+,9.66,Invalid email
+Tracey,Harmon,2000-06-03,Female,29301072,tracey.harmon03@gmail.com,IT,AB-,9.83,Invalid phone
+Gregory,Day,1982-02-19,Female,6414371075,gregory.day19@gmail.com,AI,O+,4.24,Invalid CGPA
+,Espinoza,1966-04-25,Male,2133456254,kristine.espinoza25@gmail.com,IT,O+,7.92,Invalid first_name
+Michael,Espinoza,1975-05-27,Male,888276797,michael.espinoza27@gmail.com,IT,O+,6.26,Invalid phone
+Elizabeth,Bridges,2006-08-01,Female,464,elizabeth.bridges01@gmail.com,IT,O+,6.44,Invalid phone
+Matthew,Torres,1981-02-17,Male,381833289,matthew.torres17@gmail.com,IT,O+,5.22,Invalid phone
+Steven,Garcia,1983-11-05,Male,2331808059,steven.garcia05@gmail.com,IT,AB-,3.67,Invalid CGPA
+Nathaniel,Anderson,1977-01-26,Female,4983081400,Nathanielgmail.com,Cloud,B+,9.78,Invalid email
+Glenn,Lawrence,1979-01-25,Female,6215347729,glenn.lawrence25@gmail.com,Cloud,A+,0.6,Invalid CGPA
+Laura,Garner,1983-03-13,Female,1628417,laura.garner13@gmail.com,QA,AB-,5.58,Invalid phone
+George,Smith,1980-06-23,Male,2931412632,Georgeyahoo,Marketing,A+,8.72,Invalid email
+Arthur,White,2002-07-16,Female,687066082,arthur.white16@gmail.com,Marketing,AB-,3.69,"Invalid phone, Invalid CGPA"
+Aaron,Diaz,1987-08-16,Male,238,aaron.diaz16@gmail.com,AI,A+,9.28,Invalid phone
+Michael,Schwartz,1981-06-22,Male,814277008,michael.schwartz22@gmail.com,AI,AB+,5.83,Invalid phone
+Jeremy,Mayer,1985-04-04,Female,3052329641,Jeremygmail.com,HR,A+,9.89,Invalid email
+Shannon,Chavez,1970-02-04,Male,3771323360,shannon.chavez04@gmail.com,HR,A+,0.2,Invalid CGPA
+Joseph,Dixon,1974-08-03,Male,94452,joseph.dixon03@gmail.com,Cloud,AB-,8.09,Invalid phone
+Francisco,Baker,1998-12-14,Male,3774444629,francisco.baker14@gmail.com,Marketing,AB-,4.23,Invalid CGPA
+Krystal,Hudson,1972-10-17,Female,1581292455,krystal.hudson17@gmail.com,IT,B+,10.46,Invalid CGPA
+Jared,Fitzgerald,1991-07-30,Female,3797966986,Jaredmail,QA,A+,5.69,Invalid email
+Kyle,Krueger,1997-04-19,Male,9228,kyle.krueger19@gmail.com,Cloud,AB+,7.05,Invalid phone
+Angela,Ruiz,2007-03-21,Female,25543619,angela.ruiz21@gmail.com,Cloud,O+,6.02,Invalid phone

@@ -25,27 +25,18 @@ def validateq():
         return
 
     df = pd.read_csv(INPUT_FILE)
-
     df["errors"] = ""
-
     df.loc[df["first_name"].isna() | (df["first_name"].astype(str).str.strip() == ""), "errors"] += "Invalid first_name, "
-
     df.loc[~df["email"].astype(str).str.match(EmailF), "errors"] += "Invalid email, "
-
     df.loc[~df["phone_number"].astype(str).str.match(PhoneF), "errors"] += "Invalid phone, "
-
     def check_dob(d):
         try:
             return pd.to_datetime(d) <= pd.Timestamp.now()
         except:
             return False
-
     df.loc[~df["date_of_birth"].apply(check_dob), "errors"] += "Invalid DOB, "
-
     df.loc[~df["gender"].isin(VALID_GENDERS), "errors"] += "Invalid gender, "
-
     df.loc[~df["blood_group"].isin(VALID_BLOOD), "errors"] += "Invalid blood group, "
-
     def check_cgpa(x):
         try:
             return 5.0 <= float(x) <= 10.0
@@ -53,7 +44,6 @@ def validateq():
             return False
 
     df.loc[~df["cgpa"].apply(check_cgpa), "errors"] += "Invalid CGPA, "
-
     df["errors"] = df["errors"].str.rstrip(", ")
 
     valid_df = df[df["errors"] == ""]
@@ -65,11 +55,10 @@ def validateq():
     print("Validation Complete ")
     print(f"Valid records: {len(valid_df)}")
     print(f"Invalid records: {len(invalid_df)}")
-
+    
     if len(valid_df) > 0:
         print("Sending valid data to Service B...")
         subprocess.run(["python", "Sender.py", VALID_FILE])
-
 
 if __name__ == "__main__":
     validateq()

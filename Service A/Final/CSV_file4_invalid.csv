@@ -1,0 +1,21 @@
+first_name,last_name,date_of_birth,gender,phone_number,email,course_name,blood_group,cgpa,errors
+Jacqueline,Decker,2026-11-13,Male,1731621335,jacqueline.decker18@gmail.com,QA,O+,7.03,Invalid DOB
+Sheila,Moore,2008-03-25,Male,918117990,sheila.moore25@gmail.com,IT,B+,9.78,Invalid phone
+Sheila,Lewis,1971-04-07,Male,3977852537,sheila.lewis07@gmail.com,Marketing,AB+,14.74,Invalid CGPA
+Barry,Dorsey,2029-06-12,Female,2697208359,barry.dorsey06@gmail.com,Marketing,B+,9.08,Invalid DOB
+,Norris,1982-08-24,Female,7013598025,christopher.norris24@gmail.com,Cloud,A+,6.63,Invalid first_name
+Megan,Conrad,1991-07-24,Female,3040190813,megan.conrad24@gmail.com,IT,,7.09,Invalid blood group
+Shelby,Maldonado,1980-09-03,Female,843127679,shelby.maldonado03@gmail.com,AI,B-,8.21,Invalid phone
+Todd,Jones,1997-02-23,Female,326918946,todd.jones23@gmail.com,Marketing,B+,8.28,Invalid phone
+Kendra,Gilbert,2028-02-25,Female,6055430936,kendra.gilbert12@gmail.com,Marketing,B+,7.59,Invalid DOB
+April,Richardson,1992-06-04,Female,7334883531,april.richardson04@gmail.com,Cloud,,9.6,Invalid blood group
+Andrew,Hanson,1992-07-17,Male,2489841637,andrew.hanson17@gmail.com,Marketing,AB+,3.82,Invalid CGPA
+Karen,Anderson,1997-08-10,Female,7955618207,Anderson@gmail,AI,O-,5.47,Invalid email
+Patricia,Smith,1989-10-08,Female,815627452,patricia.smith08@gmail.com,AI,AB-,3.18,"Invalid phone, Invalid CGPA"
+Matthew,Cross,1968-06-16,Female,508626979,matthew.cross16@gmail.com,QA,AB-,7.36,Invalid phone
+,Hernandez,1982-02-13,Male,3105326795,christopher.hernandez13@gmail.com,Marketing,O+,5.73,Invalid first_name
+Jessica,Brewer,2008-03-26,Male,832683204,jessica.brewer26@gmail.com,QA,A+,8.18,Invalid phone
+Andre,Murray,1965-10-24,Male,6447105754,Murray@gmailcomcom,QA,A+,9.76,Invalid email
+Peter,Adams,2003-05-04,Male,9891990249,peter.adams04@gmail.com,IT,AB-,10.22,Invalid CGPA
+Amanda,Williams,1971-04-22,Female,8273161305,Williams@gmail,Cloud,B+,9.45,Invalid email
+Andrew,Hughes,1995-12-26,Male,9515757797,andrew.hughes26@gmail.com,HR,AB-,0.7,Invalid CGPA
